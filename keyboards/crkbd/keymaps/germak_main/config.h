@@ -20,6 +20,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define PS2_PIO_USE_PIO1 // Force the usage of PIO1 peripheral, by default the PS2 implementation uses the PIO0 peripheral
+
+#define MASTER_RIGHT
+
 //#define USE_MATRIX_I2C
 
 //#define QUICK_TAP_TERM 0
